@@ -1,0 +1,611 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>document.documentElement.className += " js";</script>
+<!-- =====================================================================
+     PAGINA DE LINKS (link da bio do Instagram), 04/11/2026.
+     No formato das paginas da Joyce e da Byanca: capa, retrato com aro, logo
+     com brilho, agendar em cartao cheio, avaliar no Google em destaque, marcas
+     com as cores oficiais, faixa de arrastar com visor e "Bom saber".
+     Feita POR INICIATIVA NOSSA, antes de ela pedir: e o teste de vender a
+     pagina de links como porta de entrada pro site (ideia do Marcelo).
+     Ela nao tem link nenhum na bio, e o "site" da ficha do Google e um post
+     do Instagram que nao existe mais.
+     Toque: bolhas (ela usa 🫧 nas legendas), no lugar das faiscas da Joyce.
+     Tudo relativo (img/, video/): pode ser servida em outro endereco depois.
+     Demonstracao de prospect: noindex e sem sitemap.
+     ===================================================================== -->
+<title>Luiza Sales Estética Personalizada | Ipatinga/MG</title>
+<meta name="description" content="Agende pelo WhatsApp, veja resultados, avalie no Google e saiba como chegar. Limpeza de pele, dermaplaning, brow lamination e design de sobrancelha no Bethânia, Ipatinga/MG.">
+<meta name="robots" content="noindex, follow">
+<meta name="theme-color" content="#F8F3EE">
+<link rel="canonical" href="https://marcel0gs.github.io/luiza-sales/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Luiza Sales Estética Personalizada">
+<meta property="og:title" content="Luiza Sales Estética Personalizada">
+<meta property="og:description" content="Limpeza de pele, dermaplaning e brow lamination em Ipatinga/MG. Agende pelo WhatsApp.">
+<meta property="og:url" content="https://marcel0gs.github.io/luiza-sales/">
+<meta property="og:image" content="https://marcel0gs.github.io/luiza-sales/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Montserrat:wght@400;500;600&display=swap">
+<link rel="preload" as="image" href="img/capa.webp" fetchpriority="high">
+<style>
+:root{
+  --creme:#F8F3EE;--creme-2:#F1E8DF;--papel:#FFFDFA;--linha:#E8DCCF;
+  /* o dourado da placa da fachada dela */
+  --ouro:#C8A15C;--ouro-claro:#E9D3A1;--ouro-esc:#9C7638;--ouro-txt:#86632C;
+  --cacau:#2E211B;--cacau-2:#4A362C;--tinta:#2E211B;--tinta-suave:#6E5E54;
+  --serif:"Cormorant Garamond",Georgia,serif;
+  --caps:"Cinzel","Cormorant Garamond",Georgia,serif;
+  --sans:"Montserrat",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+  --suave:cubic-bezier(.22,1,.36,1);
+  --dourado:linear-gradient(135deg,#B8904D 0%,#E9D3A1 45%,#C8A15C 70%,#9C7638 100%);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;color:var(--tinta);font:15px/1.5 var(--sans);overflow-x:clip;background:var(--creme)}
+img,video{display:block;max-width:100%}
+a{color:inherit}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--ouro-esc);outline-offset:3px}
+.i{width:24px;height:24px;flex:none;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+
+/* fundo: no computador, a sala dela desfocada atras da coluna */
+.fundo{position:fixed;inset:0;z-index:-1;background:var(--creme)}
+@media (min-width:620px){
+  .fundo{background:url(img/fundo.webp) center/cover}
+  .fundo::after{content:"";position:absolute;inset:0;background:rgba(248,243,238,.78);backdrop-filter:blur(22px);-webkit-backdrop-filter:blur(22px)}
+}
+.coluna{width:min(460px,100%);margin:0 auto;padding:14px 16px 40px}
+@media (min-width:620px){.coluna{margin:28px auto;padding:16px 20px 36px;background:var(--creme);border-radius:30px;box-shadow:0 30px 80px rgba(46,33,27,.2)}}
+
+/* ---------- topo: a sala, o logo, o retrato ---------- */
+.topo{position:relative;text-align:center}
+.capa{position:relative;isolation:isolate;height:206px;border-radius:24px;overflow:hidden;background:var(--cacau)}
+.capa img{position:absolute;inset:0;z-index:-2;width:100%;height:100%;object-fit:cover;object-position:50% 40%}
+.capa::after{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(110% 95% at 50% 36%,rgba(46,33,27,.5),rgba(46,33,27,.78))}
+/* o logo da placa: monograma LS com o rosto (vetorizado da fachada) e o nome em Cinzel.
+   Os dois levam o mesmo dourado, e o brilho passa UMA vez */
+.logo{position:absolute;left:0;right:0;top:18px;display:grid;justify-items:center}
+.logo__mono{width:84px;aspect-ratio:670/594;-webkit-mask:url(img/monograma.svg) center/contain no-repeat;mask:url(img/monograma.svg) center/contain no-repeat}
+.logo__nome{margin-top:4px;font:500 1.32rem/1 var(--caps);letter-spacing:.12em;padding-left:.12em;-webkit-background-clip:text;background-clip:text;color:transparent}
+.logo__sub{margin-top:6px;font:500 .54rem/1 var(--sans);letter-spacing:.38em;padding-left:.38em;color:rgba(248,243,238,.82)}
+.logo__mono,.logo__nome{background:linear-gradient(105deg,var(--ouro) 0%,var(--ouro-claro) 34%,var(--ouro) 42%,#fff 47%,#FFF6DF 50%,#fff 53%,var(--ouro) 58%,var(--ouro-claro) 72%,var(--ouro) 100%) 100% 0/250% 100% no-repeat}
+.logo__nome{-webkit-background-clip:text;background-clip:text}
+.js .logo__mono,.js .logo__nome{animation:varre 2.2s .6s ease-in-out both}
+.js .logo__nome{animation-delay:.75s}
+@keyframes varre{to{background-position:0 0}}
+.retrato{
+  position:relative;z-index:2;width:112px;height:112px;margin:-50px auto 0;border-radius:50%;padding:4px;
+  background:conic-gradient(from 210deg,var(--ouro-esc),var(--ouro-claro),var(--ouro),var(--ouro-claro),var(--ouro-esc));
+  box-shadow:0 14px 30px rgba(46,33,27,.25);
+}
+.retrato img{width:100%;height:100%;border-radius:50%;object-fit:cover;object-position:62% 30%;border:3px solid var(--creme)}
+.nome{margin:12px 0 0;font:600 1.7rem/1.1 var(--serif);color:var(--tinta)}
+.nome small{display:block;margin-top:.5rem;font:600 .6rem/1.3 var(--sans);letter-spacing:.34em;padding-left:.34em;color:var(--ouro-txt)}
+.bio{margin:10px auto 0;max-width:31ch;text-wrap:balance;font-size:.92rem;color:var(--tinta-suave)}
+.chips{display:flex;flex-wrap:wrap;justify-content:center;gap:.45rem;margin-top:14px}
+.chip{display:inline-flex;align-items:center;gap:.35rem;padding:.38rem .8rem;border-radius:999px;background:var(--papel);border:1px solid var(--linha);font-size:.72rem;font-weight:500;letter-spacing:.02em;color:var(--tinta);text-decoration:none}
+.chip .i{width:14px;height:14px;color:var(--ouro-esc)}
+.chip .i--g{width:13px;height:13px}
+.chip b{font-weight:600}
+
+/* ---------- os links ---------- */
+.links{display:grid;gap:11px;margin-top:22px;list-style:none;padding:0}
+.link{
+  position:relative;isolation:isolate;overflow:hidden;
+  display:grid;grid-template-columns:44px 1fr 18px;align-items:center;gap:.85rem;
+  padding:.85rem 1rem .85rem .85rem;border-radius:18px;text-decoration:none;
+  background:var(--papel);border:1px solid var(--linha);box-shadow:0 8px 22px rgba(46,33,27,.06);
+  transition:transform .25s var(--suave),box-shadow .3s ease,border-color .3s ease;
+}
+.link:hover{transform:translateY(-2px);border-color:var(--ouro-claro);box-shadow:0 14px 30px rgba(46,33,27,.12)}
+.link:active{transform:scale(.985)}
+/* o brilho que passa UMA vez no hover (templates/componentes/botao-brilho-hover) */
+.link::before{content:"";position:absolute;top:0;left:-60%;width:40%;height:100%;z-index:1;background:linear-gradient(115deg,transparent,rgba(255,255,255,.6),transparent);transform:skewX(-20deg);transition:left .7s ease;pointer-events:none}
+.link:hover::before{left:130%}
+.link__ico{width:44px;height:44px;border-radius:14px;display:grid;place-items:center;background:var(--creme-2);color:var(--ouro-esc)}
+.link__ico .i{width:22px;height:22px}
+.link__txt{min-width:0}
+.link__txt b{display:block;font:600 .95rem/1.25 var(--sans);color:var(--tinta)}
+.link__txt small{display:block;margin-top:.15rem;font-size:.76rem;line-height:1.35;color:var(--tinta-suave)}
+/* uma linha so: subtitulo que quebra deixa um botao mais alto que os outros */
+.link:not(.link--avaliar) .link__txt small{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.link__seta{width:18px;height:18px;color:var(--ouro-esc);transition:transform .3s var(--suave)}
+.link:hover .link__seta{transform:translateX(3px)}
+/* o principal: cheio, no dourado */
+.link--cheio{background:var(--dourado);border-color:transparent;box-shadow:0 14px 32px rgba(156,118,56,.36)}
+.link--cheio .link__ico{background:rgba(255,255,255,.32);color:var(--cacau)}
+.link--cheio .link__ico .i--cheio{fill:currentColor;stroke:none}
+.link--cheio .link__txt b{color:var(--cacau)}
+.link--cheio .link__txt small{color:#4E3A22}
+.link--cheio .link__seta{color:var(--cacau)}
+.link--cheio:hover{border-color:transparent;box-shadow:0 18px 40px rgba(156,118,56,.46)}
+/* avaliar: borda dourada em degrade, estrelas do Google e um brilho que passa sozinho */
+.link--avaliar{
+  grid-template-columns:52px 1fr 18px;padding:1rem 1rem 1rem .85rem;border:2px solid transparent;
+  background:linear-gradient(var(--papel),var(--papel)) padding-box,linear-gradient(135deg,var(--ouro-claro),var(--ouro) 45%,#F6EBD2 70%,var(--ouro-esc)) border-box;
+  box-shadow:0 14px 34px rgba(156,118,56,.2);
+}
+.link--avaliar:hover{border-color:transparent;box-shadow:0 18px 40px rgba(156,118,56,.3)}
+.link--avaliar::before{animation:passa 4.5s ease-in-out 1.4s infinite}
+@keyframes passa{0%{left:-60%}28%,100%{left:130%}}
+.link--avaliar .link__ico{width:52px;height:52px;border-radius:16px}
+.link--avaliar .link__ico .i{width:28px;height:28px}
+.link--avaliar .link__txt b{font-size:1.04rem}
+.estrelas{display:flex;gap:2px;margin-bottom:.2rem}
+.estrelas .i{width:14px;height:14px;fill:#FBBC04;stroke:#FBBC04;stroke-width:1}
+/* marcas com as cores oficiais */
+.link__ico--google,.link__ico--maps{background:var(--papel);border:1px solid var(--linha)}
+.link__ico--google .i{width:24px;height:24px}
+.link__ico--maps .i{width:26px;height:26px}
+.link__ico--insta{background:radial-gradient(circle at 30% 107%,#FDF497 0%,#FDF497 5%,#FD5949 45%,#D6249F 60%,#285AEB 90%);color:#fff}
+.link__ico--insta .i{stroke-width:2}
+/* entrada em cascata, so com JS e sem "reduzir movimento" */
+.js .links > li{animation:sobe .7s var(--suave) both;animation-delay:calc(var(--o,0) * 70ms + .35s)}
+@keyframes sobe{from{opacity:0;transform:translateY(14px)}}
+
+/* ---------- agenda de dezembro (do post dela de 03/11/2026). Some sozinho em 2027 ---------- */
+.dez{position:relative;isolation:isolate;overflow:hidden;margin-top:14px;padding:1.05rem 1.05rem 1rem;border-radius:20px;color:var(--creme);background:radial-gradient(120% 120% at 100% 0%,#5A4232 0%,var(--cacau) 60%)}
+.dez[hidden]{display:none}
+.dez::after{content:"";position:absolute;right:-26px;top:-26px;width:120px;height:120px;z-index:-1;border-radius:50%;background:radial-gradient(circle,rgba(233,211,161,.28),transparent 70%)}
+.dez__cab{display:flex;align-items:center;justify-content:space-between;gap:.6rem}
+.dez__tit{font:600 1.35rem/1.1 var(--serif);color:var(--ouro-claro)}
+.dez__tit small{display:block;margin-bottom:.25rem;font:600 .58rem/1 var(--sans);letter-spacing:.3em;color:rgba(248,243,238,.7)}
+.dez__conta{flex:none;min-width:74px;padding:.45rem .6rem;border-radius:14px;text-align:center;background:rgba(233,211,161,.12);border:1px solid rgba(233,211,161,.3)}
+.dez__conta:empty{display:none}
+.dez__conta b{display:block;font:600 1.5rem/1 var(--serif);color:var(--ouro-claro)}
+.dez__conta span{display:block;margin-top:.15rem;font-size:.6rem;letter-spacing:.08em;color:rgba(248,243,238,.75)}
+.dez__datas{display:grid;gap:.35rem;margin:.85rem 0 0;padding:0;list-style:none;font-size:.82rem}
+.dez__datas li{display:flex;justify-content:space-between;gap:.6rem;padding-bottom:.35rem;border-bottom:1px dashed rgba(233,211,161,.22)}
+.dez__datas li:last-child{border-bottom:0;padding-bottom:0}
+.dez__datas b{font-weight:600;color:var(--ouro-claro);white-space:nowrap}
+.dez__datas .hoje{color:#fff}
+.dez__obs{margin:.6rem 0 0;font-size:.76rem;color:rgba(248,243,238,.75)}
+.dez__btn{display:flex;align-items:center;justify-content:center;gap:.5rem;margin-top:.9rem;min-height:46px;border-radius:999px;text-decoration:none;font-weight:600;font-size:.86rem;color:var(--cacau);background:var(--dourado);box-shadow:0 10px 24px rgba(0,0,0,.25);transition:transform .2s ease}
+.dez__btn:active{transform:scale(.98)}
+.dez__btn .i{width:18px;height:18px;fill:currentColor;stroke:none}
+
+/* ---------- titulos de secao ---------- */
+.titulo{display:flex;align-items:center;gap:.6rem;margin:30px 0 12px;font:600 1.45rem/1.15 var(--serif);color:var(--tinta)}
+.titulo em{font-style:italic;font-weight:500;color:var(--ouro-txt)}
+.titulo::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,var(--ouro-claro),transparent)}
+
+/* ---------- faixas de arrastar (avaliacoes e resultados) ---------- */
+.faixa{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-inline:16px;margin:0 -16px;padding:2px 16px 8px;scrollbar-width:none;list-style:none}
+.faixa::-webkit-scrollbar{display:none}
+@media (hover:hover) and (pointer:fine){.faixa{cursor:grab}}
+/* o snap desliga enquanto o mouse arrasta, senao cada pixel puxa de volta pro cartao */
+.faixa.arrastando{scroll-snap-type:none;cursor:grabbing}
+@media (min-width:620px){.faixa{margin:0 -20px;padding:2px 20px 8px;scroll-padding-inline:20px}}
+
+/* avaliacoes reais da ficha dela (Places API, 04/11/2026), trechos literais */
+.avals li{flex:0 0 78%;scroll-snap-align:start;display:flex}
+.aval{display:flex;flex-direction:column;width:100%;margin:0;padding:1rem 1.05rem;border-radius:18px;background:var(--papel);border:1px solid var(--linha);box-shadow:0 8px 22px rgba(46,33,27,.05)}
+.aval__top{display:flex;align-items:center;justify-content:space-between}
+.aval__top .i{width:18px;height:18px}
+.aval blockquote{flex:1;margin:.55rem 0 0;font:500 1.12rem/1.32 var(--serif);color:var(--tinta)}
+.aval figcaption{margin-top:.7rem;font-size:.74rem;font-weight:600;color:var(--tinta-suave)}
+.mais{display:flex;align-items:center;justify-content:center;gap:.35rem;margin:.5rem auto 0;width:max-content;font-size:.76rem;font-weight:600;color:var(--ouro-txt);text-decoration:none;border-bottom:1px solid var(--ouro-claro);padding-bottom:1px}
+.mais .i{width:14px;height:14px}
+@media (min-width:620px){.avals li{flex-basis:70%}}
+
+/* resultados: os reels dela */
+.galeria li{flex:0 0 40%;scroll-snap-align:start}
+@media (min-width:620px){.galeria li{flex-basis:36%}}
+.res{
+  position:relative;isolation:isolate;display:block;width:100%;aspect-ratio:9/16;overflow:hidden;padding:0;border:0;cursor:pointer;
+  border-radius:16px;background:var(--cacau);box-shadow:0 8px 18px rgba(46,33,27,.14);-webkit-user-drag:none;user-select:none;
+}
+.res video,.res img{position:absolute;inset:0;z-index:-2;width:100%;height:100%;object-fit:cover;-webkit-user-drag:none;transition:scale .8s var(--suave)}
+.res::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(46,33,27,0) 60%,rgba(46,33,27,.5))}
+.res:hover video,.res:hover img{scale:1.04}
+.res__tag{position:absolute;right:8px;top:8px;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;background:rgba(46,33,27,.45);color:#fff;backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px)}
+.res__tag .i{width:13px;height:13px;fill:currentColor;stroke:none}
+.nota{margin:.4rem 0 0;font-size:.72rem;color:var(--tinta-suave);text-align:center}
+
+/* ---------- visor: o resultado em tela cheia ---------- */
+.visor{position:fixed;inset:0;z-index:80;display:grid;place-items:center;padding:56px 14px 96px;background:rgba(30,21,17,.94);opacity:0;visibility:hidden;transition:opacity .3s ease,visibility 0s .3s}
+.visor.on{opacity:1;visibility:visible;transition:opacity .3s ease}
+@supports (backdrop-filter:blur(1px)){.visor{background:rgba(30,21,17,.86);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}}
+.visor__quadro{position:relative;height:100%;max-height:760px;aspect-ratio:9/16;max-width:100%;border-radius:18px;overflow:hidden;background:#000;box-shadow:0 30px 80px rgba(0,0,0,.5);touch-action:pan-y}
+.visor__quadro video,.visor__quadro img{width:100%;height:100%;object-fit:cover}
+.visor__btn{position:absolute;display:grid;place-items:center;width:44px;height:44px;border-radius:50%;border:0;background:rgba(255,255,255,.12);color:#fff;cursor:pointer;transition:background .2s ease}
+.visor__btn:hover{background:rgba(255,255,255,.24)}
+.visor__btn .i{width:22px;height:22px}
+.visor__fechar{top:10px;right:10px}
+.visor__ant,.visor__prox{top:50%;translate:0 -50%}
+.visor__ant{left:10px}.visor__prox{right:10px}
+.visor__ant .i{rotate:180deg}
+.visor__conta{position:absolute;top:22px;left:50%;translate:-50% 0;font-size:.78rem;letter-spacing:.12em;color:rgba(255,255,255,.75)}
+.visor__agendar{position:absolute;left:50%;bottom:26px;translate:-50% 0;display:inline-flex;align-items:center;gap:.5rem;padding:.85rem 1.4rem;border-radius:999px;white-space:nowrap;text-decoration:none;font-weight:600;font-size:.88rem;color:var(--cacau);background:var(--dourado);box-shadow:0 12px 30px rgba(0,0,0,.35)}
+.visor__agendar .i{width:19px;height:19px;fill:currentColor;stroke:none}
+@media (max-width:619px){.visor__ant,.visor__prox{display:none}}
+
+/* ---------- bom saber ---------- */
+.info{display:grid;gap:10px}
+.cartao{padding:1rem 1.05rem;border-radius:18px;background:var(--papel);border:1px solid var(--linha)}
+.cartao__cab{display:flex;align-items:center;gap:.6rem;font-weight:600;font-size:.88rem}
+.cartao__cab .i{width:18px;height:18px;color:var(--ouro-esc)}
+.cartao p{margin:.45rem 0 0;font-size:.84rem;color:var(--tinta-suave)}
+.cartao p b{color:var(--tinta);font-weight:600}
+.servicos{display:flex;flex-wrap:wrap;gap:.4rem;margin:.65rem 0 0;padding:0;list-style:none}
+.servicos li{padding:.36rem .75rem;border-radius:999px;background:var(--creme-2);font-size:.74rem;font-weight:500;color:var(--tinta)}
+.glow{margin-top:.75rem;padding:.75rem .85rem;border-radius:14px;background:linear-gradient(135deg,#F6EBD2,#FBF5EA);border:1px solid var(--ouro-claro)}
+.glow b{display:block;font:600 1.08rem/1.2 var(--serif);color:var(--ouro-txt)}
+.glow span{display:block;margin-top:.2rem;font-size:.8rem;color:var(--tinta)}
+.regras{display:grid;gap:.55rem;margin:.6rem 0 0;padding:0;list-style:none}
+.regras li{display:grid;grid-template-columns:18px 1fr;gap:.55rem;font-size:.82rem;color:var(--tinta-suave)}
+.regras li .i{width:16px;height:16px;margin-top:2px;color:var(--ouro-esc)}
+.regras b{color:var(--tinta);font-weight:600}
+
+.fecho{margin:32px 0 0;display:grid;justify-items:center;gap:.5rem}
+.fecho__mono{width:46px;aspect-ratio:670/594;background:var(--ouro);-webkit-mask:url(img/monograma.svg) center/contain no-repeat;mask:url(img/monograma.svg) center/contain no-repeat}
+.rodape{margin:0;text-align:center;font-size:.7rem;letter-spacing:.06em;color:var(--tinta-suave)}
+.assinatura{margin:.6rem 0 0;text-align:center;font-size:.68rem;letter-spacing:.04em;color:var(--tinta-suave)}
+.assinatura a{color:var(--ouro-txt);font-weight:600;text-decoration:none;border-bottom:1px solid var(--ouro-claro);padding-bottom:1px;transition:color .2s ease}
+.assinatura a:hover{color:var(--tinta)}
+
+/* bolhas no toque (ela usa 🫧): sobem, crescem um pouco e estouram */
+.bolha{
+  position:fixed;z-index:90;pointer-events:none;border-radius:50%;transform:translate(-50%,-50%);
+  background:
+    radial-gradient(circle at 32% 28%,rgba(255,255,255,.95) 0 9%,rgba(255,255,255,0) 24%),
+    radial-gradient(circle at 50% 50%,rgba(255,255,255,0) 56%,rgba(233,211,161,.55) 70%,rgba(214,190,235,.5) 80%,rgba(190,225,235,.55) 88%,rgba(255,255,255,.85) 96%,rgba(255,255,255,0) 100%);
+  box-shadow:0 0 0 1px rgba(156,118,56,.22),inset 0 0 8px rgba(255,255,255,.5);
+  animation:bolha var(--t,1.2s) var(--suave) forwards;
+}
+@keyframes bolha{
+  0%{transform:translate(-50%,-50%) scale(.3);opacity:0}
+  15%{opacity:1}
+  85%{transform:translate(calc(-50% + var(--dx)),calc(-50% + var(--dy))) scale(1);opacity:1}
+  100%{transform:translate(calc(-50% + var(--dx)),calc(-50% + var(--dy))) scale(1.35);opacity:0}
+}
+.aviso{position:fixed;left:50%;bottom:22px;z-index:95;transform:translate(-50%,20px);opacity:0;padding:.6rem 1rem;border-radius:999px;background:var(--cacau);color:var(--creme);font-size:.8rem;transition:all .35s var(--suave);pointer-events:none}
+.aviso.on{opacity:1;transform:translate(-50%,0)}
+
+@media (prefers-reduced-motion:reduce){
+  .js .links > li,.js .logo__mono,.js .logo__nome{animation:none}
+  .logo__mono,.logo__nome{background-position:0 0}
+  .bolha{display:none}
+  .link,.link::before,.link__seta,.res video,.res img{transition:none}
+  .link--avaliar::before{animation:none}
+}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-zap" viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.1s-.8 1-.9 1.2c-.2.2-.3.2-.6.1-.3-.2-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5 0-.2 0-.4 0-.5 0-.2-.7-1.6-.9-2.2-.2-.5-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5 4.4.7.3 1.2.5 1.7.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3ZM12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.6 0-3.2-.4-4.5-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Z"/></symbol>
+  <symbol id="i-insta" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></symbol>
+  <symbol id="i-estrela" viewBox="0 0 24 24"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></symbol>
+  <symbol id="i-brilho" viewBox="0 0 24 24"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"/><path d="M20 2v4"/><path d="M22 4h-4"/><circle cx="4" cy="20" r="2"/></symbol>
+  <symbol id="i-relogio" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+  <symbol id="i-pessoas" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+  <symbol id="i-calendario" viewBox="0 0 24 24"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/><path d="m9 16 2 2 4-4"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.4-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></symbol>
+  <symbol id="i-externo" viewBox="0 0 24 24"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></symbol>
+  <!-- Google e Maps com as cores oficiais (Wikimedia Commons), copiados da pagina da Joyce -->
+  <symbol id="i-google" viewBox="1 1 22 22"><g stroke="none"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></g></symbol>
+  <symbol id="i-maps" viewBox="0 0 92.3 132.3"><g stroke="none"><path fill="#1a73e8" d="M60.2 2.2C55.8.8 51 0 46.1 0 32 0 19.3 6.4 10.8 16.5l21.8 18.3L60.2 2.2z"/><path fill="#ea4335" d="M10.8 16.5C4.1 24.5 0 34.9 0 46.1c0 8.7 1.7 15.7 4.6 22l28-33.3-21.8-18.3z"/><path fill="#4285f4" d="M46.2 28.5c9.8 0 17.7 7.9 17.7 17.7 0 4.3-1.6 8.3-4.2 11.4 0 0 13.9-16.6 27.5-32.7-5.6-10.8-15.3-19-27-22.7L32.6 34.8c3.3-3.8 8.1-6.3 13.6-6.3"/><path fill="#fbbc04" d="M46.2 63.8c-9.8 0-17.7-7.9-17.7-17.7 0-4.3 1.5-8.3 4.1-11.3l-28 33.3c4.8 10.6 12.8 19.2 21 29.9l34.1-40.5c-3.3 3.9-8.1 6.3-13.5 6.3"/><path fill="#34a853" d="M59.1 109.2c15.4-24.1 33.3-35 33.3-63 0-7.7-1.9-14.9-5.2-21.3L25.6 98c2.6 3.4 5.3 7.3 7.9 11.3 9.4 14.5 6.8 23.1 12.8 23.1s3.4-8.7 12.8-23.2"/></g></symbol>
+  <symbol id="i-dir" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+</svg>
+
+<div class="fundo" aria-hidden="true"></div>
+
+<main class="coluna">
+
+  <header class="topo">
+    <!-- capa: a sala dela, com o vapor e o ring light (foto da ficha do Google), sob um veu cacau -->
+    <div class="capa">
+      <img src="img/capa.webp" width="1000" height="620" alt="Limpeza de pele com vapor na sala da Luiza" fetchpriority="high">
+      <div class="logo" role="img" aria-label="Logo Luiza Sales Estética Personalizada">
+        <span class="logo__mono" aria-hidden="true"></span>
+        <span class="logo__nome" aria-hidden="true">LUIZA SALES</span>
+        <span class="logo__sub" aria-hidden="true">ESTÉTICA PERSONALIZADA</span>
+      </div>
+    </div>
+    <!-- a foto do perfil do Instagram (so existe em 150 px; ampliada 4x no Real-ESRGAN) -->
+    <div class="retrato"><img src="img/retrato.webp" width="300" height="300" alt="Luiza Sales"></div>
+    <h1 class="nome">Luiza Sales<small>ESTETICISTA · IPATINGA/MG</small></h1>
+    <!-- a primeira linha da bio do Instagram dela, literal -->
+    <p class="bio">Proporcionando saúde e realçando sua beleza.</p>
+    <div class="chips">
+      <!-- nota e contagem da ficha em 04/11/2026: 5,0 com 93. "Mais de 90" continua verdade quando crescer -->
+      <a class="chip" href="https://maps.google.com/?cid=362083058145761278" target="_blank" rel="noopener"><svg class="i i--g" aria-hidden="true"><use href="#i-google"/></svg><b>5,0</b> · mais de 90 avaliações</a>
+      <span class="chip"><svg class="i" aria-hidden="true"><use href="#i-pin"/></svg>Bethânia · Ipatinga</span>
+    </div>
+  </header>
+
+  <ul class="links">
+    <!-- mensagem sem emoji (vira losango no wa.me) -->
+    <li style="--o:0"><a class="link link--cheio" href="https://wa.me/5531972074407?text=Ol%C3%A1%2C%20Luiza!%20Vim%20pelo%20link%20da%20bio%20e%20quero%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener">
+      <span class="link__ico"><svg class="i i--cheio" aria-hidden="true"><use href="#i-zap"/></svg></span>
+      <span class="link__txt"><b>Agendar meu horário</b><small>Pelo WhatsApp · (31) 97207-4407</small></span>
+      <svg class="i link__seta" aria-hidden="true"><use href="#i-dir"/></svg>
+    </a></li>
+    <!-- placeid da ficha "Luiza sales estetica personalizada" (Places API, 04/11/2026) -->
+    <li style="--o:1"><a class="link link--avaliar" href="https://search.google.com/local/writereview?placeid=ChIJjwGjwSUBsAAR_hf3e59gBgU" target="_blank" rel="noopener">
+      <span class="link__ico link__ico--google"><svg class="i" aria-hidden="true"><use href="#i-google"/></svg></span>
+      <span class="link__txt">
+        <span class="estrelas" aria-hidden="true"><svg class="i"><use href="#i-estrela"/></svg><svg class="i"><use href="#i-estrela"/></svg><svg class="i"><use href="#i-estrela"/></svg><svg class="i"><use href="#i-estrela"/></svg><svg class="i"><use href="#i-estrela"/></svg></span>
+        <b>Avaliar no Google</b><small>Leva 1 minuto e ajuda muito o meu trabalho</small>
+      </span>
+      <svg class="i link__seta" aria-hidden="true"><use href="#i-dir"/></svg>
+    </a></li>
+    <li style="--o:2"><a class="link" href="https://www.instagram.com/ls_esteticapersonalizada/" target="_blank" rel="noopener">
+      <span class="link__ico link__ico--insta"><svg class="i" aria-hidden="true"><use href="#i-insta"/></svg></span>
+      <span class="link__txt"><b>Instagram</b><small>@ls_esteticapersonalizada</small></span>
+      <svg class="i link__seta" aria-hidden="true"><use href="#i-dir"/></svg>
+    </a></li>
+    <li style="--o:3"><a class="link" href="https://maps.google.com/?cid=362083058145761278" target="_blank" rel="noopener">
+      <span class="link__ico link__ico--maps"><svg class="i" aria-hidden="true"><use href="#i-maps"/></svg></span>
+      <span class="link__txt"><b>Como chegar</b><small>Rua Salta, 8 · Bethânia, Ipatinga</small></span>
+      <svg class="i link__seta" aria-hidden="true"><use href="#i-dir"/></svg>
+    </a></li>
+  </ul>
+
+  <!-- AGENDA DE DEZEMBRO: as datas do carrossel dela de 03/11/2026 (DfUuqmvkatA).
+       O JS conta os dias, marca a fase em que estamos e esconde o cartao a partir de 01/01/2027 -->
+  <section class="dez" id="dez" aria-label="Agenda de dezembro">
+    <div class="dez__cab">
+      <div class="dez__tit"><small>CONTAGEM REGRESSIVA</small>Agenda de dezembro</div>
+      <div class="dez__conta" data-conta-dez></div>
+    </div>
+    <ul class="dez__datas">
+      <li data-fase="fixas"><span>Abre para clientes fixas</span><b>23/11</b></li>
+      <li data-fase="todas"><span>Abre para as demais clientes</span><b>01/12</b></li>
+      <li><span>Sem atendimento</span><b>25, 26 e 27/12</b></li>
+    </ul>
+    <p class="dez__obs">Em dezembro, atendimento inclusive aos domingos.</p>
+    <a class="dez__btn" href="https://wa.me/5531972074407?text=Ol%C3%A1%2C%20Luiza!%20Vim%20pelo%20link%20da%20bio%20e%20quero%20garantir%20um%20hor%C3%A1rio%20em%20dezembro." target="_blank" rel="noopener"><svg class="i" aria-hidden="true"><use href="#i-zap"/></svg>Quero um horário em dezembro</a>
+  </section>
+
+  <h2 class="titulo">O que dizem <em>no Google</em></h2>
+  <!-- trechos literais de avaliacoes publicas da ficha (Places API, 04/11/2026) -->
+  <ul class="faixa avals" aria-label="Avaliações do Google">
+    <li><figure class="aval">
+      <div class="aval__top"><span class="estrelas" aria-label="5 estrelas"><svg class="i" aria-hidden="true"><use href="#i-estrela"/></svg><svg class="i" aria-hidden="true"><use href="#i-estrela"/></svg><svg class="i" aria-hidden="true"><use href="#i-estrela"/></svg><svg class="i" aria-hidden="true"><use href="#i-estrela"/></svg><svg class="i" aria-hidden="true"><use href="#i-estrela"/></svg></span><svg class="i" aria-hidden="true"><use href="#i-google"/></svg></div>
+      <blockquote>“Profissional maravilhosa, minha pele melhorou 100%.”</blockquote>
+      <figcaption>Mara Priscila</figcaption>
+    </figure></li>
+    <li><figure class="aval">
+      <div class="aval__top"><span class="estrelas" aria-label="5 estrelas"><svg class="i" aria-hidden="true"><use href="#i-estrela"/></svg><svg class="i" aria-hidden="true"><use href="#i-estrela"/></svg><svg class="i" aria-hidden="true"><use href="#i-estrela"/></svg><svg class="i" aria-hidden="true"><use href="#i-estrela"/></svg><svg class="i" aria-hidden="true"><use href="#i-estrela"/></svg></span><svg class="i" aria-hidden="true"><use href="#i-google"/></svg></div>
+      <blockquote>“Excelente profissional, usa produtos de qualidade e atendimento muito bom!!”</blockquote>
+      <figcaption>Cesar Silva</figcaption>
+    </figure></li>
+    <li><figure class="aval">
+      <div class="aval__top"><span class="estrelas" aria-label="5 estrelas"><svg class="i" aria-hidden="true"><use href="#i-estrela"/></svg><svg class="i" aria-hidden="true"><use href="#i-estrela"/></svg><svg class="i" aria-hidden="true"><use href="#i-estrela"/></svg><svg class="i" aria-hidden="true"><use href="#i-estrela"/></svg><svg class="i" aria-hidden="true"><use href="#i-estrela"/></svg></span><svg class="i" aria-hidden="true"><use href="#i-google"/></svg></div>
+      <blockquote>“Atendimento de excelência, super recomendo, ótima profissional, pontual.”</blockquote>
+      <figcaption>Pedro Henrique</figcaption>
+    </figure></li>
+    <li><figure class="aval">
+      <div class="aval__top"><span class="estrelas" aria-label="5 estrelas"><svg class="i" aria-hidden="true"><use href="#i-estrela"/></svg><svg class="i" aria-hidden="true"><use href="#i-estrela"/></svg><svg class="i" aria-hidden="true"><use href="#i-estrela"/></svg><svg class="i" aria-hidden="true"><use href="#i-estrela"/></svg><svg class="i" aria-hidden="true"><use href="#i-estrela"/></svg></span><svg class="i" aria-hidden="true"><use href="#i-google"/></svg></div>
+      <blockquote>“Ambiente muito tranquilo e uma profissional muito boa e super atenciosa.”</blockquote>
+      <figcaption>Lucas Silva</figcaption>
+    </figure></li>
+  </ul>
+  <a class="mais" href="https://maps.google.com/?cid=362083058145761278" target="_blank" rel="noopener">Ver todas as avaliações<svg class="i" aria-hidden="true"><use href="#i-externo"/></svg></a>
+
+  <h2 class="titulo">Resultados <em>e bastidores</em></h2>
+  <!-- reels do Instagram dela (preparar-links.sh): brow lamination primeiro, depois a
+       Limpeza Glow, o LED e os dois de bastidor. Tocam sem som so enquanto estao na tela -->
+  <ul class="faixa galeria" aria-label="Resultados: toque para ver em tela cheia">
+    <li><button class="res" type="button" data-src="video/r01.mp4" aria-label="Brow lamination, vídeo"><video muted loop playsinline preload="none" poster="img/r01.webp"></video><span class="res__tag" aria-hidden="true"><svg class="i"><use href="#i-play"/></svg></span></button></li>
+    <li><button class="res" type="button" data-src="video/r02.mp4" aria-label="Brow lamination em sobrancelha fina, vídeo"><video muted loop playsinline preload="none" poster="img/r02.webp"></video><span class="res__tag" aria-hidden="true"><svg class="i"><use href="#i-play"/></svg></span></button></li>
+    <li><button class="res" type="button" data-src="video/r03.mp4" aria-label="A reação da cliente ao ver o resultado, vídeo"><video muted loop playsinline preload="none" poster="img/r03.webp"></video><span class="res__tag" aria-hidden="true"><svg class="i"><use href="#i-play"/></svg></span></button></li>
+    <li><button class="res" type="button" data-src="video/r04.mp4" aria-label="Limpeza de pele Glow, vídeo"><video muted loop playsinline preload="none" poster="img/r04.webp"></video><span class="res__tag" aria-hidden="true"><svg class="i"><use href="#i-play"/></svg></span></button></li>
+    <li><button class="res" type="button" data-src="video/r05.mp4" aria-label="Brow lamination, o produto e o resultado, vídeo"><video muted loop playsinline preload="none" poster="img/r05.webp"></video><span class="res__tag" aria-hidden="true"><svg class="i"><use href="#i-play"/></svg></span></button></li>
+    <li><button class="res" type="button" data-src="img/f01.webp" aria-label="Máscara facial dourada, foto"><img src="img/f01.webp" width="540" height="960" loading="lazy" decoding="async" alt=""></button></li>
+    <li><button class="res" type="button" data-src="video/r06.mp4" aria-label="Limpeza de pele com LED, vídeo"><video muted loop playsinline preload="none" poster="img/r06.webp"></video><span class="res__tag" aria-hidden="true"><svg class="i"><use href="#i-play"/></svg></span></button></li>
+    <li><button class="res" type="button" data-src="video/r07.mp4" aria-label="Bastidores, vídeo"><video muted loop playsinline preload="none" poster="img/r07.webp"></video><span class="res__tag" aria-hidden="true"><svg class="i"><use href="#i-play"/></svg></span></button></li>
+    <li><button class="res" type="button" data-src="video/r08.mp4" aria-label="Bastidores do atendimento, vídeo"><video muted loop playsinline preload="none" poster="img/r08.webp"></video><span class="res__tag" aria-hidden="true"><svg class="i"><use href="#i-play"/></svg></span></button></li>
+  </ul>
+  <p class="nota">Toque para ver em tela cheia. Resultados variam de pessoa para pessoa.</p>
+
+  <h2 class="titulo">Bom saber</h2>
+  <div class="info">
+    <div class="cartao">
+      <div class="cartao__cab"><svg class="i" aria-hidden="true"><use href="#i-brilho"/></svg>Serviços</div>
+      <!-- da placa da fachada, da bio e das legendas dela -->
+      <ul class="servicos">
+        <li>Limpeza de pele</li>
+        <li>Dermaplaning</li>
+        <li>Brow lamination</li>
+        <li>Design de sobrancelha</li>
+        <li>Henna</li>
+        <li>Lash lifting</li>
+        <li>Extensão de cílios</li>
+        <li>Depilação</li>
+        <li>Tratamentos faciais e corporais</li>
+      </ul>
+      <!-- frase da legenda dela (DeWhVX5RkI3), literal -->
+      <div class="glow"><b>Limpeza de Pele Glow</b><span>Une a limpeza de pele premium ao dermaplaning para um cuidado ainda mais completo.</span></div>
+    </div>
+    <div class="cartao">
+      <div class="cartao__cab"><svg class="i" aria-hidden="true"><use href="#i-pin"/></svg>Onde atendo</div>
+      <p>Rua Salta, 8, Bethânia, Ipatinga/MG.</p>
+    </div>
+  </div>
+
+  <div class="fecho">
+    <span class="fecho__mono" aria-hidden="true"></span>
+    <p class="rodape">Luiza Sales Estética Personalizada · Ipatinga/MG</p>
+  </div>
+  <p class="assinatura">Desenvolvido por <a href="https://marcel0gs.github.io/marcelo-ribeiro-digital/" target="_blank" rel="noopener">Marcelo Ribeiro</a></p>
+</main>
+
+<div class="visor" role="dialog" aria-modal="true" aria-label="Resultado em tela cheia" hidden>
+  <span class="visor__conta" data-conta></span>
+  <div class="visor__quadro" data-quadro></div>
+  <button class="visor__btn visor__fechar" type="button" aria-label="Fechar"><svg class="i" aria-hidden="true"><use href="#i-x"/></svg></button>
+  <button class="visor__btn visor__ant" type="button" aria-label="Anterior"><svg class="i" aria-hidden="true"><use href="#i-dir"/></svg></button>
+  <button class="visor__btn visor__prox" type="button" aria-label="Próximo"><svg class="i" aria-hidden="true"><use href="#i-dir"/></svg></button>
+  <a class="visor__agendar" href="https://wa.me/5531972074407?text=Ol%C3%A1%2C%20Luiza!%20Vi%20os%20resultados%20no%20link%20da%20bio%20e%20quero%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener"><svg class="i" aria-hidden="true"><use href="#i-zap"/></svg>Quero agendar</a>
+</div>
+
+<div class="aviso" role="status" aria-live="polite"></div>
+
+<script>
+(function(){
+  "use strict";
+  var reduzido = !!(window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches);
+  var economia = !!(navigator.connection && navigator.connection.saveData);
+  var anima = !reduzido && !economia;
+  function toca(v){ var p = v.play(); if (p && p.catch) p.catch(function(){}); }
+
+  /* 1. agenda de dezembro: conta os dias ate a proxima abertura e some em 2027.
+     Datas do post dela; o mes no Date e de 0 a 11 */
+  var dez = document.getElementById("dez");
+  if (dez) {
+    var agora = new Date(), hoje = new Date(agora.getFullYear(), agora.getMonth(), agora.getDate());
+    var fixas = new Date(2026, 10, 23), todas = new Date(2026, 11, 1), fim = new Date(2027, 0, 1);
+    var caixa = dez.querySelector("[data-conta-dez]"), dia = 864e5;
+    var falta = function(d){ return Math.round((d - hoje) / dia); };
+    if (hoje >= fim) dez.hidden = true;
+    else if (hoje < todas) {
+      var alvo = hoje < fixas ? fixas : todas, n = falta(alvo);
+      dez.querySelector('[data-fase="' + (hoje < fixas ? "fixas" : "todas") + '"]').classList.add("hoje");
+      caixa.innerHTML = n === 0 ? "<b>Hoje</b><span>abre a agenda</span>" : "<b>" + n + "</b><span>" + (n === 1 ? "dia" : "dias") + " para abrir</span>";
+    } else caixa.innerHTML = "<b>Aberta</b><span>garanta o seu</span>";
+  }
+
+  /* 2. bolhas no toque, no topo e nos botoes */
+  function bolhas(x, y){
+    if (reduzido) return;
+    for (var k = 0; k < 7; k++) {
+      var b = document.createElement("span"), t = 10 + Math.random() * 18;
+      b.className = "bolha";
+      b.style.left = x + "px"; b.style.top = y + "px";
+      b.style.width = b.style.height = t.toFixed(1) + "px";
+      b.style.setProperty("--dx", ((Math.random() - .5) * 90).toFixed(1) + "px");
+      b.style.setProperty("--dy", (-40 - Math.random() * 70).toFixed(1) + "px");
+      var dur = 0.9 + Math.random() * 0.7;
+      b.style.setProperty("--t", dur.toFixed(2) + "s");
+      document.body.appendChild(b);
+      setTimeout(function(el){ return function(){ el.remove(); }; }(b), dur * 1000 + 80);
+    }
+  }
+  document.addEventListener("pointerdown", function(e){
+    if (e.target.closest(".topo, .link, .dez__btn, .visor__agendar")) bolhas(e.clientX, e.clientY);
+  });
+
+  /* 3. resultados: tocam sem som so enquanto estao na tela */
+  var itens = Array.prototype.slice.call(document.querySelectorAll(".res")), io = null;
+  if (anima && "IntersectionObserver" in window) {
+    io = new IntersectionObserver(function(es){
+      es.forEach(function(e){
+        var v = e.target.querySelector("video");
+        if (!v) return;
+        if (e.isIntersecting) { if (!v.src) v.src = e.target.getAttribute("data-src"); toca(v); }
+        else v.pause();
+      });
+    }, { threshold: .6 });
+    itens.forEach(function(b){ io.observe(b); });
+  }
+
+  /* 4. as faixas: o dedo e o trackpad ja rolam; o mouse precisa do arraste.
+     Depois de arrastar, o clique que vem junto nao abre o visor */
+  Array.prototype.forEach.call(document.querySelectorAll(".faixa"), function(gal){
+    var arr = null, arrastou = false;
+    gal.addEventListener("dragstart", function(e){ e.preventDefault(); });
+    gal.addEventListener("pointerdown", function(e){
+      if (e.pointerType !== "mouse" || e.button !== 0) return;
+      arr = { x: e.clientX, s: gal.scrollLeft, moveu: false }; arrastou = false;
+    });
+    gal.addEventListener("pointermove", function(e){
+      if (!arr) return;
+      var dx = e.clientX - arr.x;
+      if (!arr.moveu) { if (Math.abs(dx) < 5) return; arr.moveu = true; gal.classList.add("arrastando"); gal.setPointerCapture(e.pointerId); }
+      gal.scrollLeft = arr.s - dx;
+    });
+    var solta = function(){
+      if (!arr) return;
+      var moveu = arr.moveu, dir = arr.s - gal.scrollLeft < 0 ? 1 : -1; arr = null;
+      if (!moveu) return;
+      arrastou = true;
+      /* para no cartao mais perto, puxado um quarto pro lado do arraste */
+      var base = gal.getBoundingClientRect().left + parseFloat(getComputedStyle(gal).scrollPaddingLeft || 0);
+      var max = gal.scrollWidth - gal.clientWidth, alvo = gal.scrollLeft, mira = gal.scrollLeft + dir * gal.firstElementChild.offsetWidth * .25, melhor = Infinity;
+      Array.prototype.forEach.call(gal.children, function(li){
+        var pos = Math.min(max, Math.max(0, gal.scrollLeft + li.getBoundingClientRect().left - base));
+        if (Math.abs(pos - mira) < melhor) { melhor = Math.abs(pos - mira); alvo = pos; }
+      });
+      gal.scrollTo({ left: alvo, behavior: reduzido ? "auto" : "smooth" });
+      setTimeout(function(){ gal.classList.remove("arrastando"); }, reduzido ? 0 : 450);
+    };
+    gal.addEventListener("pointerup", solta);
+    gal.addEventListener("pointercancel", solta);
+    gal.addEventListener("click", function(e){ if (arrastou) { e.preventDefault(); e.stopPropagation(); arrastou = false; } }, true);
+  });
+
+  /* 5. visor: o resultado em tela cheia, com setas, teclado, arraste de lado e o
+     botao de agendar embaixo. A faixa para enquanto ele esta aberto */
+  var visor = document.querySelector(".visor"), quadro = visor.querySelector("[data-quadro]"), conta = visor.querySelector("[data-conta]");
+  var fechar = visor.querySelector(".visor__fechar"), atual = -1, origem = null, tFecha;
+  function mostra(i){
+    atual = (i + itens.length) % itens.length;
+    var src = itens[atual].getAttribute("data-src"), el;
+    if (/\.mp4$/.test(src)) {
+      el = document.createElement("video");
+      el.muted = true; el.loop = true; el.playsInline = true; el.setAttribute("playsinline", "");
+      el.poster = itens[atual].querySelector("video").getAttribute("poster");
+      el.src = src; if (!reduzido) el.autoplay = true; else el.controls = true;
+    } else { el = document.createElement("img"); el.src = src; el.alt = ""; }
+    quadro.innerHTML = ""; quadro.appendChild(el);
+    if (el.autoplay) toca(el);
+    conta.textContent = (atual + 1) + " / " + itens.length;
+  }
+  function abre(i, btn){
+    clearTimeout(tFecha);
+    origem = btn;
+    itens.forEach(function(b){ var v = b.querySelector("video"); if (v) v.pause(); });
+    visor.hidden = false; void visor.offsetWidth; visor.classList.add("on");
+    document.documentElement.style.overflow = "hidden";
+    mostra(i); fechar.focus();
+  }
+  function fecha(){
+    visor.classList.remove("on");
+    document.documentElement.style.overflow = "";
+    tFecha = setTimeout(function(){ visor.hidden = true; quadro.innerHTML = ""; }, 300);
+    if (origem) origem.focus({ preventScroll: true });
+    if (io) itens.forEach(function(b){ io.unobserve(b); io.observe(b); });
+  }
+  itens.forEach(function(b, i){ b.addEventListener("click", function(){ abre(i, b); }); });
+  fechar.addEventListener("click", fecha);
+  visor.querySelector(".visor__ant").addEventListener("click", function(){ mostra(atual - 1); });
+  visor.querySelector(".visor__prox").addEventListener("click", function(){ mostra(atual + 1); });
+  visor.addEventListener("click", function(e){ if (e.target === visor) fecha(); });
+  document.addEventListener("keydown", function(e){
+    if (visor.hidden || !visor.classList.contains("on")) return;
+    if (e.key === "Escape") fecha();
+    else if (e.key === "ArrowLeft") mostra(atual - 1);
+    else if (e.key === "ArrowRight") mostra(atual + 1);
+    else if (e.key === "Tab") {
+      var f = Array.prototype.filter.call(visor.querySelectorAll("button, a"), function(x){ return x.offsetParent !== null; });
+      var ix = f.indexOf(document.activeElement);
+      if (e.shiftKey && ix <= 0) { e.preventDefault(); f[f.length - 1].focus(); }
+      else if (!e.shiftKey && ix === f.length - 1) { e.preventDefault(); f[0].focus(); }
+    }
+  });
+  var ini = null;
+  quadro.addEventListener("pointerdown", function(e){ ini = { x: e.clientX, y: e.clientY }; });
+  quadro.addEventListener("pointerup", function(e){
+    if (!ini) return;
+    var dx = e.clientX - ini.x, dy = e.clientY - ini.y; ini = null;
+    if (Math.abs(dx) > 45 && Math.abs(dx) > Math.abs(dy)) mostra(atual + (dx < 0 ? 1 : -1));
+  });
+  quadro.addEventListener("pointercancel", function(){ ini = null; });
+})();
+</script>
+</body>
+</html>
